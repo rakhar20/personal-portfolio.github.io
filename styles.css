@@ -73,6 +73,7 @@ h2{
 #projects h2{
     font-size:30px;
 }
+
 hr{
     height:3px;
     background-color:black;
@@ -82,7 +83,16 @@ hr{
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:20px;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+#contact h2{
+    color:#CAFAFE;
+    margin-bottom:20px;
+}
+#afora{
+    display:flex;
+    gap:8px;
 }
 #contact a{
     color:white;
@@ -98,7 +108,7 @@ color:#CAFAFE;
     display:flex;
     justify-content: center;
     align-items:center;
-    gap:20px;
+    gap:5px;
     flex-wrap:wrap;
     /* max-width:1400px; */
 }
@@ -139,20 +149,43 @@ color:#CAFAFE;
         height:100px;
     }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px) and (min-width:360px){
     #navbar{
         justify-content: center;
-        font-size:unset;
     }
     img{
         width:100px;
         height:100px;
     }
-    
 }
 @media screen and (max-width:700px) and (min-width:500px){
     img{
+        width:120px;
+        height:120px;
+    }
+}
+@media screen and (max-width:360px){
+    #navbar{
+        height:50px;
+        padding-left:unset;
+    }
+    #navbar a{
+        height:50px;
+        font-size:15px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        margin-left:0;
+        width:33.333%
+    }
+    img{
         width:100px;
         height:100px;
+    }
+}
+@media screen and (max-width:516px){
+    
+    #contact a{
+        font-size:3.5vw;
     }
 }
