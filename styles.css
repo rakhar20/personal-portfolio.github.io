@@ -126,10 +126,10 @@ color:#CAFAFE;
     padding-top:12vh;
     transition:color 0.3s ease, transform 0.3s ease-in-out, background-color 0.9s ease;
 }
-#p1{
+/* #p1{
     background-image: url("https://github.com/rakhar20/portfolio.github.io/blob/main/Screenshot%20(6).png?raw=true");
     background-color: #00766ead;
-    /* mix-blend-mode:multiply; */
+    /* mix-blend-mode:multiply; 
     background-size: cover;
     background-repeat:no-repeat;
     background-blend-mode:overlay;
@@ -138,12 +138,12 @@ color:#CAFAFE;
 #p2{
     background-image: url("https://github.com/rakhar20/portfolio.github.io/blob/main/Screenshot%20(7).png?raw=true");
     background-color: #00766e00;
-    /* mix-blend-mode:multiply; */
+    /* mix-blend-mode:multiply; 
     background-size:25vh 30vh;
     background-repeat:no-repeat;
     background-blend-mode:overlay;
     background-position: -22px;
-}
+}*/
 #project-tile a:hover{
     transform:scale(1.05);
     color:#033431;
